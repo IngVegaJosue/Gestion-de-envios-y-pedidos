@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestión de Envíos y Pedidos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Gestión de Envíos y Pedidos</h1>
+  </header>
+
+  <main>
+    <section id="form-section">
+      <h2>Registrar Pedido</h2>
+      <form id="order-form">
+        <label for="customer">Nombre del Cliente:</label>
+        <input type="text" id="customer" placeholder="Ingresa el nombre del cliente" required>
+
+        <label for="address">Dirección:</label>
+        <input type="text" id="address" placeholder="Ingresa la dirección" required>
+
+        <label for="product">Producto:</label>
+        <input type="text" id="product" placeholder="Ingresa el producto solicitado" required>
+
+        <label for="date">Fecha de Envío:</label>
+        <input type="date" id="date" required>
+
+        <button type="submit">Registrar Pedido</button>
+      </form>
+    </section>
+
+    <section id="list-section">
+      <h2>Lista de Pedidos</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Cliente</th>
+            <th>Dirección</th>
+            <th>Producto</th>
+            <th>Fecha</th>
+            <th>Estado</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody id="order-list">
+          <!-- Los pedidos se agregarán dinámicamente aquí -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
