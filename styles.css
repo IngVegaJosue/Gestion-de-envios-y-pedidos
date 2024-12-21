@@ -1,0 +1,93 @@
+/* Estilos básicos */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #4CAF50;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  padding: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+  margin: 0 0 1rem;
+}
+
+form label {
+  display: block;
+  margin-top: 1rem;
+}
+
+form input, form button {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+form button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+th {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+button.delivered {
+  background-color: #2196F3;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 0.3rem 0.5rem;
+}
+
+button.delivered:hover {
+  background-color: #0b7dda;
+}
+
+button.delete {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 0.3rem 0.5rem;
+}
+
+button.delete:hover {
+  background-color: #d32f2f;
+}
